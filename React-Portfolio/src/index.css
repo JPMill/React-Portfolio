@@ -30,6 +30,34 @@ body {
   min-height: 100vh;
 }
 
+.header, .footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.profile-pic {
+  max-width: 150px;
+  border-radius: 50%;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
