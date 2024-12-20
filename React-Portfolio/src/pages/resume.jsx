@@ -1,9 +1,10 @@
 import React from 'react';
+import resume1 from '../assets/images/resume.png'
 
 function Resume() {
   return (
     <section className="resume">
-      <a href="../assets/resume.pdf" download>Download Resume</a>
+      <a href={resume1} download="resume.png">Download Resume</a>
       <h3>Proficiencies</h3>
       <ul>
         <li>HTML, CSS, JavaScript</li>

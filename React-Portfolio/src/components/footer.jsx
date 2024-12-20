@@ -11,6 +11,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             aria-label="GitHub Profile"
           >
+            <p>GitHub</p>
             <i className="fab fa-github"></i>
           </a>
         </li>
@@ -21,6 +22,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             aria-label="LinkedIn Profile"
           >
+            <p>LinkedIn</p>
             <i className="fab fa-linkedin"></i>
           </a>
         </li>
@@ -31,6 +33,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             aria-label="Stack Overflow Profile"
           >
+            <p>Slack</p>
             <i className="fab fa-stack-overflow"></i>
           </a>
         </li>

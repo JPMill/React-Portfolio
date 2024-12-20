@@ -1,40 +1,39 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-const Project = ({ title, image, deployedLink, repoLink }) => {
+function Project({ title, imageUrl, deployedUrl, githubUrl, description }) {
   return (
-    <div className="project-card">
-      <img src={image} alt={`${title} screenshot`} className="project-image" />
-      <div className="project-content">
-        <h3 className="project-title">{title}</h3>
-        <div className="project-links">
+    <div className="card h-100">
+      <img
+        src={imageUrl}
+        alt={title}
+        className="card-img-top"
+      />
+      <div className="card-body">
+        <h3 className="card-title h5">{title}</h3>
+        <p className="card-text">{description}</p>
+      </div>
+      <div className="card-footer bg-transparent border-top-0">
+        <div className="d-flex justify-content-between">
           <a
-            href={deployedLink}
+            href={deployedUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="project-link"
+            className="btn btn-primary btn-sm"
           >
-            View Live
+            Live Demo
           </a>
           <a
-            href={repoLink}
+            href={githubUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="project-link"
+            className="btn btn-outline-primary btn-sm"
           >
-            GitHub Repo
+            GitHub
           </a>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-Project.propTypes = {
-  title: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
-  deployedLink: PropTypes.string.isRequired,
-  repoLink: PropTypes.string.isRequired,
-};
-
-export default Project;
+export default Project

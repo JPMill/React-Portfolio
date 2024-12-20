@@ -12,12 +12,12 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Perform validation or send the form data
   };
 
   return (
     <section className="contact">
       <form onSubmit={handleSubmit}>
+        <label htmlFor="name">Name</label>
         <input
           type="text"
           name="name"
@@ -27,6 +27,7 @@ function Contact() {
           required
         />
         {error.name && <p>Name is required</p>}
+        <label htmlFor="email">email</label>
         <input
           type="email"
           name="email"
@@ -36,6 +37,7 @@ function Contact() {
           required
         />
         {error.email && <p>Valid email is required</p>}
+        <label htmlFor="message">message</label>
         <textarea
           name="message"
           placeholder="Message"
