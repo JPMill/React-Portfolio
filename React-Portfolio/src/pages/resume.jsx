@@ -8,7 +8,7 @@ function Resume() {
       <h3>Proficiencies</h3>
       <ul>
         <li>HTML, CSS, JavaScript</li>
-        <li>React, Redux</li>
+        <li>React, TypeScript</li>
         <li>Node.js, Express</li>
         <li>MySQL, MongoDB</li>
         <li>Git, GitHub</li>

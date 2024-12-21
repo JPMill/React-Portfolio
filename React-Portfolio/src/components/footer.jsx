@@ -6,7 +6,7 @@ const Footer = () => {
       <ul className="footer-links">
         <li>
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/JPMill"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub Profile"
@@ -17,7 +17,7 @@ const Footer = () => {
         </li>
         <li>
           <a
-            href="https://linkedin.com/in/your-profile"
+            href="https://linkedin.com/in/justin-miller-05047b293"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn Profile"

@@ -5,6 +5,21 @@
   text-align: center;
 }
 
+main {
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 60vh; /* Make sure the content takes up at least the full height of the viewport */
+  padding: 2rem; /* Optional padding around the content */
+}
+
+/* Optional: Style for the content of main, if needed */
+main > * {
+  max-width: 1200px; /* Limit the maximum width of the content */
+  width: 100%; /* Ensure the content fills the available width */
+  text-align: center; /* Optional: Center text inside the content */
+}
+
 .header,
 .footer {
   background-color: #333;
@@ -75,6 +90,11 @@
   background-color: var(--secondary-color);
 }
 
+.nav-links a.active-link {
+  color: #646cff; /* Color for the active link */
+  font-weight: bold; /* Optional: Make it visually distinct */
+}
+
 .card,
 .project-card {
   background-color: #333;
@@ -112,8 +132,15 @@
   color: #aaa;
 }
 
+.card-img-top {
+  width: 100%; /* Ensure it fills the container width */
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* Ensures images don't get distorted */
+}
+
 .profile-pic {
   max-width: 150px;
+  height: auto;
   border-radius: 50%;
   margin: 1rem auto;
 }
@@ -215,27 +242,54 @@
   color: #333;
 }
 
-/* .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.resume {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-} */
 
-/* @keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+.resume a {
+  display: inline-block;
+  background-color: #646cff;
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.resume a:hover {
+  background-color: #5555dd;
+}
+
+.resume h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.resume ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.resume ul li {
+  margin: 0.5rem 0;
+}
+
+
 
 @media (max-width: 768px) {
   .nav-links {
@@ -253,10 +307,4 @@
   }
 }
 
-/* .card {
-  padding: 2em;
-}
 
-.read-the-docs {
-  color: #888;
-} */

@@ -22,6 +22,7 @@ function Project({ title, imageUrl, deployedUrl, githubUrl, description }) {
           >
             Live Demo
           </a>
+          <p> </p>
           <a
             href={githubUrl}
             target="_blank"
