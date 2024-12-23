@@ -1,8 +1,37 @@
-# React + Vite
+# React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-Currently, two official plugins are available:
+## Description
+This is a portfolio of projects I have built. This portfolio was built using react.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Installation
+To install this project run 'npm install'.
+
+## Usage
+To start this application, run npm build followed by npm run preview, or visit this URL https://6767171da794027b0f47dcad--jpmillreactportfolio.netlify.app/
+
+
+## License
+This project is licensed under the MIT license.
+For more details, please refer to the [MIT License](https://opensource.org/licenses/MIT).
+
+
+## Contributing
+No contributions are needed at this time.
+
+## Tests
+No spesific test instructions for this project.
+
+## Questions
+If you have any questions, please feel free to reach out:
+- GitHub: [JPMill](https://github.com/JPMill)
+- Email: [justinmiller617@gmail.com](mailto:justinmiller617@gmail.com)
