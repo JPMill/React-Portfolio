@@ -1,4 +1,5 @@
 import React from 'react';
+import './Project.css'
 
 function Project({ title, imageUrl, deployedUrl, githubUrl, description }) {
   return (

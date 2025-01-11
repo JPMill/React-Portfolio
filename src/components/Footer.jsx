@@ -1,4 +1,5 @@
 import React from 'react';
+import './Footer.css'
 
 const Footer = () => {
   return (
@@ -26,7 +27,7 @@ const Footer = () => {
             <i className="fab fa-linkedin"></i>
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             href="https://stackoverflow.com/users/your-user-id"
             target="_blank"
@@ -36,7 +37,7 @@ const Footer = () => {
             <p>Slack</p>
             <i className="fab fa-stack-overflow"></i>
           </a>
-        </li>
+        </li> */}
       </ul>
       <p>&copy; 2024 Justin Miller. All rights reserved.</p>
     </footer>
