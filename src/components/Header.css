@@ -60,7 +60,7 @@
   bottom: 0;
   border-radius: 12px; /* Match nav-links border radius */
   
-  background: linear-gradient(135deg, transparent 60%, #61dafb);
+  background: linear-gradient(135deg, transparent 45%, #61dafb);
   
   background-size: 150% 150%;
   animation: neonStreaks 2s infinite alternate;
