@@ -41,10 +41,12 @@
   .project img {
     width: 100%;
     height: 200px; 
-    object-fit: cover; 
+    object-fit: contain; /* Ensure the entire image fits */
+    object-position: center; /* Center-align the image */
     border-radius: 8px;
     margin-bottom: 1rem;
     transition: transform 0.3s ease; 
+    background-color: #333; /* Optional: Add a background to handle transparent images */
   }
   
   .project:hover img {
@@ -92,7 +94,43 @@
   @media (max-width: 768px) {
     .portfolio {
       padding: 1.5rem;
-      grid-template-columns: 1fr; 
-      margin: 2rem auto; 
+      grid-template-columns: 1fr;
+      margin: 2rem auto;
+      max-width: 400px;
+    }
+  
+    .project img {
+      height: 180px; /* Reduce image height slightly */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .portfolio {
+      padding: 1rem;
+      gap: 1.5rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      max-width: 250px;
+    }
+  
+    .project {
+      padding: 1rem;
+    }
+  
+    .project img {
+      height: 150px; /* Further reduce image height */
+    }
+  
+    .project h3 {
+      font-size: 1.1rem;
+    }
+  
+    .project p {
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+  
+    .project .project-links a {
+      font-size: 1rem;
     }
   }

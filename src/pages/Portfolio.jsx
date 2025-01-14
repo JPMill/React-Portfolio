@@ -3,7 +3,7 @@ import Project from '../components/Project';
 import Image1 from '../assets/images/vehiclebuilder.png';
 import Image2 from '../assets/images/readme.png';
 import Image3 from '../assets/images/eplanner.png';
-import Image4 from '../assets/images/NullLabsLogo4.png'
+import Image4 from '../assets/images/NullLabsLogo3.png'
 import Image5 from '../assets/images/WeatherApi.png'
 import './Portfolio.css'
 

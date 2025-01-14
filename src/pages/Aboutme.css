@@ -44,6 +44,7 @@
   @media (max-width: 768px) {
     .about-me {
       padding: 1.5rem;
+      max-width: 500px; 
     }
   
     .profile-pic {
@@ -53,5 +54,23 @@
   
     .about-me p {
       font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .about-me {
+      padding: 1rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      max-width: 250px; 
+    }
+  
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .about-me p {
+      font-size: 0.9rem;
     }
   }
