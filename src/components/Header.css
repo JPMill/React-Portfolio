@@ -6,25 +6,36 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #333;
+  background-color: #222;
   color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 100%; 
   top: 0;
   left: 0;
-  z-index: 1000; 
+  z-index: 1000;
+  position: relative; 
 }
 
 .header h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   margin: 1.5rem 0 1rem;
   margin-top: 3rem;
+  margin-bottom: 2rem;
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(90deg, #ffffff, #838383);
+  background: linear-gradient(to left, #ffffff, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, letter-spacing 0.3s ease;
+}
+
+.header h1:hover {
+  transform: scale(1.1);
+  letter-spacing: 0.2rem;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 .nav-links {
@@ -33,10 +44,11 @@
   gap: 1.5rem;
   margin: 0;
   padding: 0.8rem 1.5rem;
-  background-color: #333; /* Keep the background color the same */
+  background-color: #222; /* Background remains the same */
   position: relative;
   border-radius: 12px; /* Rounded corners */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  z-index: 1; /* Place above the border pseudo-element */
 }
 
 .nav-links::before {
@@ -46,11 +58,39 @@
   left: 0;
   right: 0;
   bottom: 0;
-  border-radius: 12px;
-  background: linear-gradient(45deg, #61dafb, #00f5d4); /* Cool gradient border effect */
-  z-index: -1;
-  padding: 4px; /* Space for the border */
+  border-radius: 12px; /* Match nav-links border radius */
+  
+  background: linear-gradient(135deg, transparent 60%, #61dafb);
+  
+  background-size: 150% 150%;
+  animation: neonStreaks 2s infinite alternate;
+  z-index: -1; /* Place behind the nav-links */
+  padding: 2px; /* Space for the gradient border */
+  -webkit-mask: 
+    linear-gradient(#000 0 0) content-box, 
+    linear-gradient(#000 0 0); /* Mask to show only border */
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
 }
+
+@keyframes neonStreaks {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
 
 .nav-links li::before {
   content: none;
