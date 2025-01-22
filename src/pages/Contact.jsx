@@ -17,6 +17,14 @@ function Contact() {
 
   return (
     <section className="contact">
+      <div className="contact-info">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:justinmiller617@gmail.com">justinmiller617@gmail.com</a></p>
+        <p>Phone: <a href="tel:5155570405">515-557-0405</a></p>
+        <p>GitHub: <a href="https://github.com/JPMill" target="_blank" rel="noopener noreferrer">github.com/JPMill</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/justin-miller-05047b293/" target="_blank" rel="noopener noreferrer">/in/justin-miller-05047b293/</a></p>
+      </div>
+
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name</label>
         <input
