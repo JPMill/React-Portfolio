@@ -17,7 +17,7 @@ This is a portfolio of projects I have built. This portfolio was built using rea
 To install this project run 'npm install'.
 
 ## Usage
-To start this application, run npm build followed by npm run preview, or visit this URL https://6767171da794027b0f47dcad--jpmillreactportfolio.netlify.app/
+To start this application, run npm build followed by npm run preview, or visit this URL [Website Link/](https://react-portfolio-q2m6.onrender.com/)
 
 
 ## License
