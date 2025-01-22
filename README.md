@@ -17,7 +17,7 @@ This is a portfolio of projects I have built. This portfolio was built using rea
 To install this project run 'npm install'.
 
 ## Usage
-To start this application, run npm build followed by npm run preview, or visit this URL [Website Link/](https://react-portfolio-q2m6.onrender.com/)
+To start this application, run npm build followed by npm run preview, or visit this URL [Website Link](https://react-portfolio-q2m6.onrender.com/)
 
 
 ## License
