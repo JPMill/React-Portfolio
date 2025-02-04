@@ -10,18 +10,18 @@ import './Portfolio.css'
 function Portfolio() {
   const projects = [
     {
-      title: 'E-Planner',
-      imageUrl: Image3,
-      deployedUrl: 'https://ejmaller7.github.io/E-Planner/',
-      githubUrl: 'https://github.com/ejmaller7/E-Planner',
-      description: 'Our team worked togeher to develop the front end project website consist of a calendar, to do list and weather forcast station. Our team works together to brainstorm the idea through sketchboard and research. We work on the coding together through the VSO live sharing.'
-    },
-    {
       title: 'Null Labs',
       imageUrl: Image4,
       deployedUrl: 'https://null-labs-frontend.onrender.com/',
       githubUrl: 'https://github.com/ejmaller7/Null-Labs',
       description: 'Our team worked togeher to develop a full-stack application that leverages the MERN stack. This application is a digital video game store that allows users to get information on a variety of games via an api call. Users can create an account and add game deals to their wishlist/shopping cart.'
+    },
+    {
+      title: 'E-Planner',
+      imageUrl: Image3,
+      deployedUrl: 'https://ejmaller7.github.io/E-Planner/',
+      githubUrl: 'https://github.com/ejmaller7/E-Planner',
+      description: 'Our team worked togeher to develop the front end project website consist of a calendar, to do list and weather forcast station. Our team works together to brainstorm the idea through sketchboard and research. We work on the coding together through the VSO live sharing.'
     }
   ]
 
