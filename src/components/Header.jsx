@@ -1,11 +1,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css'
+import imageName from '../assets/images/Name.png'
 
 function Header() {
   return (
     <header className="header">
-      <h1>Justin Miller</h1>
+      <h1>
+        Justin Miller
+      </h1>
       <nav>
         <ul className="nav-links">
           <li>
