@@ -14,7 +14,7 @@ function Portfolio() {
       imageUrl: Image5,
       deployedUrl: 'https://dev-connect-1-eiz8.onrender.com/',
       githubUrl: 'https://github.com/ejmaller7/Dev.connect',
-      description: 'Dev.Connect is a MERN-stack networking platform for developers to connect, showcase projects, and explore job opportunities. It features user profiles, community feed, job listings, and industry news updates. Development is ongoing.'
+      description: 'Dev.Connect is a MERN-stack networking platform for developers to connect, showcase projects, and explore job opportunities. It features user profiles, a community feed, job listings, and industry news updates. Development is ongoing.'
     },
     {
       title: 'Null Labs',
