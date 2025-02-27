@@ -13,6 +13,8 @@ function Resume() {
         <li>Node.js, Express</li>
         <li>MySQL, MongoDB</li>
         <li>Git, GitHub</li>
+        <li>GraphQL</li>
+        <li>RESTful APIs</li>
       </ul>
     </section>
   );
